@@ -16,15 +16,4 @@ export class ChatController {
   getAll() {
     return this.chatService.findAll();
   }
-  // @Post('analyze')
-  // analyze(
-  //   @Body()
-  //   body: {
-  //     chat: { sender: string; content: string }[];
-  //     provider?: 'gemini' | 'tinyllama';
-  //   },
-  // ) {
-  //   return this.chatService.analyze(body.chat, body.provider);
-  // }
- 
 }
