@@ -31,17 +31,6 @@ export class ChatService {
   findAll(){
     return this.repository.find();
   }
-  // async analyze(
-  //   chat: { sender: string; content: string }[]
-  // ) {
-  //   return this.langchain.analyze(chat);
-  // }
-  // async analyze(chat: { sender: string; content: string }[]) {
-  //   return this.langchain.analyze(chat);
-  // }
-
-  
-  
    
 }
     
