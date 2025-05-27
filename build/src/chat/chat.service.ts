@@ -31,6 +31,9 @@ export class ChatService {
   findAll(){
     return this.repository.find();
   }
+  async analyzeQuestions(chat: { sender: string; content: string }[]): Promise<any> {
+  return this.langchain.analyze(chat);
+}
    
 }
     
